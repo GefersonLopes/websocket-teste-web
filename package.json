@@ -9,18 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.11.4",
+    "autoprefixer": "^10.4.20",
+    "graphql": "^16.9.0",
+    "next": "14.2.7",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.7"
+    "subscriptions-transport-ws": "^0.11.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.7"
+    "eslint-config-next": "14.2.7",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5"
   }
 }
